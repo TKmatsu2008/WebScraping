@@ -1,0 +1,6 @@
+env/Scripts/Activate.ps1  仮想環境起動
+pip install Packege       パッケージインストール
+deactivate                仮想環境終了
+
+pip freeze　> requirements.txt　パッケージ書き出し
+pip install -r requirements.txt パッケージ一括インストール
